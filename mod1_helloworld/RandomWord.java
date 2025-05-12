@@ -9,7 +9,7 @@ public class RandomWord{
         while (!StdIn.isEmpty())
         {
             String next = StdIn.readString();
-            if (StdRandom.bernoulli(1/ i))
+            if (StdRandom.bernoulli(1.0 / i))
             {
                 result = next;
             }
